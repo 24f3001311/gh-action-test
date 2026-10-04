@@ -1,0 +1,12 @@
+name: Exam Action
+on: [push, workflow_dispatch]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        
+      - name: 24f3001311@ds.study.iitm.ac.in
+        run: echo "Action successful!"
